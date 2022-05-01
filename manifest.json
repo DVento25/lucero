@@ -1,0 +1,44 @@
+{
+	"name":"Lucero Bazalar",
+	"short_name":"Lucero",
+	"description":"Bienvenido a mi pagina web",
+	"background_color":"white",
+	"theme_color":"white",
+	"orientation":"portrait",
+	"display":"standalone",
+	"start_url":"./?utm_source=web_app_manifest",
+	"scope":"./",
+	"lang":"es",
+	"icons":[
+		{
+			"src":"image2/icono_1024.png",
+			"sizes":"1024x1024",
+			"type":"image/png"
+		},
+		{
+			"src":"image2/icono_512.png",
+			"sizes":"512x512",
+			"type":"image/png" 
+		},
+		{
+			"src":"image2/icono_384.png",
+			"sizes":"384x384",
+			"type":"image/png"
+		},
+		{
+			"src":"image2/icono_256.png",
+			"sizes":"256x256",
+			"type":"image/png"
+		},
+		{
+			"src":"image2/icono_192.png",
+			"sizes":"192x192",
+			"type":"image/png"
+		},
+		{
+			"src":"image2/icono_128.png",
+			"sizes":"128x128",
+			"type":"image/png"
+		}
+	]
+}
