@@ -42,42 +42,57 @@
     <li><a href="https://lectortmo.com/library/manga/8800/horimiya">Horimiya</a></li>
   </ul>
   <!-- fin del navbar -->
-  <br>
-  <div class="row">
-    <div class="col s12 center-align">
-      <audio controls>
-        <source src="videoplayback.mp3" type="audio/mp3">
-    </audio>
-    </div>
-  </div>
-<!-- inicio carosul -->
-<div class="carousel">
-  <a class="carousel-item" href="#one!"><img src="image2/IMG_20220422_205307.jpg"></a>
-    <a class="carousel-item" href="#one!"><img src="image2/IMG_20220422_205258.jpg"></a>
-    <a class="carousel-item" href="#two!"><img src="image2/IMG-20220423-WA0025.jpg"></a>
-    <a class="carousel-item" href="#three!"><img src="image2/IMG-20220423-WA0021.jpg"></a>
-    <a class="carousel-item" href="#four!"><img src="image2/IMG-20220421-WA0097.jpg"></a>
-    <a class="carousel-item" href="#five!"><img src="image2/IMG_20220417_202045.jpg"></a>
-    <a class="carousel-item" href="#six!"><img src="image2/IMG_20220417_123445.jpg"></a>
-    <a class="carousel-item" href="#seven!"><img src="image2/IMG-20220423-WA0032.jpg"></a>
-    <a class="carousel-item" href="#ocho!"><img src="image2/IMG-20220503-WA0006.jpg"></a>
-  </div>
-	<!-- fin carosul -->
-  <div class="row col s12 center-align">
-    <a onclick="M.toast({html: 'Entonces puedes contar conmigo <3'})" class="waves-effect waves-light btn">Sabes contar?</a>
-  </div>
-  <div class="row col s12 center-align">
-    <a onclick="M.toast({html: 'I LIKE YOUR HUGS'})" class="waves-effect waves-light btn">ABRAZAME</a>
-  </div>
-  
+ <br>
+<!-- inicio collapsible -->
+<div class="container">
+    <ul class="collapsible">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">library_music</i>Mi cama huele a ti</div>
+          <div class="collapsible-body"><span><div class="video-container">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/0YqA3LeIuT4" frameborder="0" allowfullscreen></iframe>
+          </div></span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">library_music</i>Chocolate y Nata</div>
+          <div class="collapsible-body"><span></span><div class="video-container">
+            <iframe width="853" height="480" src="https://www.youtube.com/embed/KfbbXNkg66M" frameborder="0" allowfullscreen></iframe>
+          </div></span></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">list</i>Te quiero mucho!!</div>
+          <div class="collapsible-body"><span>
+            <ul class="collapsible">
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">favorite</i>Te pienso</div>
+                  <div class="collapsible-body"><span>Quiero que recuerdes que siempre estoy pensando en ti
+                      y duermo soñando contigo porque mi cama huele a ti. <3 
+                  </span></div>
+                </li>
+                <li>
+                  <div class="collapsible-header"><i class="material-icons">favorite_border</i>El día</div>
+                  <div class="collapsible-body"><span>Si el día se pone feo, tú me lo haces bonito <3 </span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header"><i class="material-icons">favorite</i>Tu Boquita</div>
+                    <div class="collapsible-body"><span>Si yo fuese el mar y tú una roca, haría subir la marea para besar tu boca <3 
+                       <br> <br> <img class="responsive-img" src="image2/IMG_20220507_230556.jpg"> </span></div>
+                  </li>
+              </ul>
+
+          </span></div>
+        </li>
+      </ul>
+</div>
+
+  <!--final collapsible -->
 
 	<script src="script.js"></script>
 	<script src="jquery-3.4.1.min.js"></script>
 	<script src="materialize.js"></script>
 	<script>
 		 $(document).ready(function(){
-       $('.sidenav').sidenav();
-    $('.carousel').carousel();
+            $('.sidenav').sidenav();
+    $('.collapsible').collapsible();
   });
 	</script>
 </body>
