@@ -43,19 +43,53 @@
   </ul>
   <!-- fin del navbar -->
   <br>
-  <div class="container">
-    <div class="row center"><img class="responsive-img" src="image2/carta.png" id="carta1" alt=""></div>
-<div class="row center">Tienes una nueva carta! dale click!</div>
-</div> 
+  <video class="responsive-video" autoplay controls>
+    <source src="image2/lu3/VID-20220729-WA0024.mp4" type="video/mp4">
+  </video><br>
+  <div class="row">
+    <div class="col s12 center-align">
+      <audio controls>
+        <source src="videoplayback.mp3" type="audio/mp3">
+    </audio>
+    </div>
+    
+  </div><br>
+  <div class="row">
+    <div class="row col s12 center-align">
+      <a onclick="M.toast({html: 'TE AMO MUCHISIMO <3'})" class="waves-effect waves-light btn">TE AMO</a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="row col s12 center-align">
+      <a onclick="M.toast({html: 'Me alegra verte conocido <2+1'})" class="waves-effect waves-light btn">Señorita <4-1 </a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col s12 center-align">
+      <audio controls>
+        <source src="Grover Washington JR. - Just the two of us.mp3" type="audio/mp3">
+    </audio>
+    </div>
+  </div><br>
+  <div class="row">
+    <div class="col s12 center-align">
+      <a href="fotos.html" class="waves-effect waves-light btn"> Mas Fotos</a>
+    </div><br><br>
+
+
+  <div class="row col s12 center-align">
+    <a onclick="M.toast({html: 'Entonces puedes contar conmigo <3'})" class="waves-effect waves-light btn">Sabes contar?</a>
+  </div>
+  <div class="row col s12 center-align">
+    <a onclick="M.toast({html: 'I LIKE YOUR HUGS'})" class="waves-effect waves-light btn">ABRAZAME</a>
+  </div>
+  
 
 	<script src="script.js"></script>
 	<script src="jquery-3.4.1.min.js"></script>
 	<script src="materialize.js"></script>
 	<script>
 		 $(document).ready(function(){
-      $("#carta1").click(function(){
-		window.location.href="carta1.html";
-	   })
        $('.sidenav').sidenav();
     $('.carousel').carousel();
     $('.slider').slider();
